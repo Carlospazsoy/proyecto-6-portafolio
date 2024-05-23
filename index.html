@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/ffa693c87b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- lista de iconos https://fontawesome.com/search?o=r&m=free -->
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="header" class="header">
+      <nav class="navbar">
+        <div class="container-image">
+          <img src="./img/pazdev isotipo.png" alt="" width="50px" height="50px" />
+        </div>
+        <div class="container-language">
+          <div class="nav-item language-dropdown">
+            <label for="language-dropdown" class="nav-link"><i class="fa-solid fa-globe"></i> <span id="language">Idioma</span></label>
+            <input type="checkbox" id="language-dropdown">
+            <div class="dropdown-content">
+              <!-- uso de atributo data-... -->
+              <a href="#" class="language-option" data-lang="es"><img src="https://flagicons.lipis.dev/flags/4x3/mx.svg" width="16px" height="16px" alt=""> Español</a>
+              <a href="#" class="language-option" data-lang="en"><img src="https://flagicons.lipis.dev/flags/4x3/gb.svg" width="16px" height="16px" alt=""> English</a>
+              <a href="#" class="language-option" data-lang="fr"><img src="https://flagicons.lipis.dev/flags/4x3/fr.svg" width="16px" height="16px" alt=""> Français</a>
+            </div>
+          </div>
+          <!-- <p>ES</p>
+          <a href="#"><i class="fab fa-facebook"></i></a> -->
+        </div>
+        <!-- <a href="#" class="nav-logo">WebDev.</a> -->
+        <ul class="nav-menu">
+          <!-- <li class="nav-item">
+            <a href="#" class="nav-link">Blog</a>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a href="#" class="nav-link">Servicios</a>
+          </li> -->
+          <div class="nav-item">
+            <label id="contact" for="contacto-dropdown" class="nav-link">Contacto</label>
+            <input type="checkbox" id="contacto-dropdown">
+            <div class="dropdown-content ">
+              
+                <!-- <a href="mailto:carlosra.hz@gmail.com" id="email-link">carlosra.hz@gmail.com</a>
+                <button id="copy-button" class="copy-button"><i class="fa-regular fa-copy"></i></button> -->
+                <div class="email-container">
+                  <a href="mailto:carlosra.hz@gmail.com" id="email-link">carlosra.hz@gmail.com</a>
+                  <button id="copy-button" class="copy-button"><i class="fa-regular fa-copy"></i></button>
+                </div>
+            </div>
+          </div>
+          <li class="nav-item">
+            <div class="nav-item curriculum-dropdown">
+              <label id="CV" for="curriculum-dropdown" class="nav-link">Curriculum</label>
+              <input type="checkbox" id="curriculum-dropdown">
+              <div class="dropdown-content">
+              <a href="./Curriculums/CV CARLOS PAZ ES.pdf" download="CV ES CARLOS PAZ"><img src="https://flagicons.lipis.dev/flags/4x3/mx.svg" width="16px" height="16px" alt=""> Español PDF</a>
+              <a href="./Curriculums/CV CARLOS PAZ EN.pdf" download="CV EN CARLOS PAZ"><img src="https://flagicons.lipis.dev/flags/4x3/gb.svg" width="16px" height="16px" alt=""> English PDF</a>
+              <a href="./Curriculums/CV CARLOS PAZ FR.pdf" download="CV FR CARLOS PAZ"><img src="https://flagicons.lipis.dev/flags/4x3/fr.svg" width="16px" height="16px" alt=""> Français PDF</a>
+              </div>
+            </div>
+            <!-- <a href="#" class="nav-link">Curriculum</a>
+            <div class="dropdown-content">
+              <a href="./Curriculums/CV CARLOS PAZ ES.pdf" download="CV ES CARLOS PAZ"><img src="https://flagicons.lipis.dev/flags/4x3/mx.svg" width="16px" height="16px" alt=""> Español</a>
+              <a href="./Curriculums/CV CARLOS PAZ ES.pdf" download="CV ES CARLOS PAZ"><img src="https://flagicons.lipis.dev/flags/4x3/gb.svg" width="16px" height="16px" alt=""> English</a>
+              <a href="./Curriculums/CV CARLOS PAZ ES.pdf" download="CV ES CARLOS PAZ"><img src="https://flagicons.lipis.dev/flags/4x3/fr.svg" width="16px" height="16px" alt=""> Français</a>
+            </div> -->
+          </li>
+          
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <!-- Nav -->
+
+    <div class="hero">
+      <div class="hero-info">
+        <div class="hero-info-text">
+          <h2 id="subtitle1" class="subtitle">HOLA, SOY CARLOS PAZ</h2>
+          <h1 id="title1" class="title">HAGO SITIOS WEB Y CONTENIDO MULTIMEDIA</h1>
+          <p id="text1" class="text">Soy desarrollador full-stack junior, me gusta crear sitios donde la experiencia del usuario y la funcionalidad estén en perfecta armonía.</p>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="./img/carlos-geneve-croop.jpg" alt="hero image" />
+      </div>
+    </div>
+
+    <!-- subhero -->
+    <section class="subhero">
+      <div class="subhero-left">
+        <div class="subhero-left-info">
+          <h2 id="subhero_left_h2" class="subtitle">Creatividad</h2>
+          <p id="subhero_left_p">
+            Desde una idea abstracta hasta un código complejo, mi trabajo es ser
+            intermediario entre la imaginación del cliente y la tecnología
+            disponible para crear proyectos unicos.
+          </p>
+        </div>
+        <div class="subhero-left-image">
+          <img
+            src="https://images.unsplash.com/photo-1545235617-7a424c1a60cc?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+          <!-- <img src="./img/hero.jpg" alt="" /> -->
+        </div>
+      </div>
+      <div class="subhero-right">
+        <div class="subhero-right-image">
+          <img
+            src="https://www.bbvaspark.com/contenido/wp-content/uploads/2024/02/shutterstock_2221903267-scaled.jpg"
+            alt=""
+          />
+        </div>
+        <div class="subhero-right-info">
+          <h2 id="subhero_right_h2" class="subtitle">Ingeniería</h2>
+          <p id="subhero_right_p">
+            Estoy equipado con herramientas potentes, modernas y eficaces para
+            traer a la vida cualquier proyecto a la web.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- infinite autoplay carrusel -->
+    <!-- https://codepen.io/studiojvla/pen/qVbQqW -->
+    <section class="herramientas">
+      <div class="subtitle-container">
+        <h2 id="herramientas1" class="subtitle">Herramientas de desarrollo web</h2>
+      </div>
+      <div class="slider">
+        <div class="slide-track">
+          <div class="slide">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/174/174854.png"
+              height="100"
+              width="100"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/732/732190.png"
+              height="100"
+              width="100"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
+              height="100"
+              width="100"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/919/919825.png"
+              height="100"
+              width="100"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-1024.png"
+              height="100"
+              width="100"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Image-HD.png"
+              height="100"
+              width="100"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://www.svgrepo.com/show/331760/sql-database-generic.svg"
+              height="100"
+              width="100"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="subtitle-container">
+        <h2 id="herramientas2" class="subtitle">
+          Herramienta de creación de contenido multimedia
+        </h2>
+      </div>
+      <div class="slider">
+        <div class="slide-track">
+          <div class="slide">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/5968/5968514.png"
+              height="100"
+              width="100"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png"
+              height="100"
+              width="100"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/5968/5968472.png"
+              height="100"
+              width="100"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/5968/5968520.png"
+              height="100"
+              width="100"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/5968/5968525.png"
+              height="100"
+              width="100"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://keycodeeducation.com/wp-content/uploads/2023/09/ResolveBundle-01-300x300-1.png"
+              height="100"
+              width="100"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trabajos con pantallas modales-->
+    <section class="trabajos" id="trabajos">
+      <div class="trabajos__header">
+        <h2 id="trabajos_h2" class="trabajos__titulo subtitle">Algunos de mis trabajos</h2>
+        <p id="trabajos_p" class="trabajos__subtitulo">
+          Selección de mis mejores trabajos como estudiante
+        </p>
+      </div>
+      <div class="trabajos__imagenes">
+        <a href="#" class="trabajos__trabajo invisible" data-id="1">
+          <img src="./img/landing-page.png" class="trabajos__imagen" alt="" />
+        </a>
+        <a href="#" class="trabajos__trabajo invisible" data-id="2">
+          <img src="./img/crud.png" class="trabajos__imagen" alt="" />
+        </a>
+        <a href="#" class="trabajos__trabajo invisible" data-id="3">
+          <img src="./img/proyecto-chartjs.png" class="trabajos__imagen" alt="" />
+        </a>
+        <a href="#" class="trabajos__trabajo invisible" data-id="4">
+          <img src="./img/restaurante.png" class="trabajos__imagen" alt="" />
+        </a>
+        <a href="#" class="trabajos__trabajo invisible" data-id="5">
+          <img src="./img/trabajo-5.jpg" class="trabajos__imagen" alt="" />
+        </a>
+        <a href="#" class="trabajos__trabajo invisible" data-id="6">
+          <img src="./img/portafolio.png" class="trabajos__imagen" alt="" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Pantalla modal de base -->
+    <section class="ventana modal__invisible" id="ventana-trabajos">
+      <!-- ventana--active -->
+      <div class="ventana__overlay">
+        <div class="ventana__body">
+          <div class="ventana__contenedor-imagen">
+            <img src="./img/trabajo-1.jpg" class="ventana__imagen" alt="" />
+          </div>
+          <div class="ventana__info">
+            <button class="ventana__btn-cerrar" data-action="cerrar-ventana">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="ventana__icono-cerrar"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                />
+              </svg>
+            </button>
+            <h1 class="ventana__titulo">Trabajo 1</h1>
+            <p class="ventana__fecha">1 de Enero de 2023</p>
+            <p class="ventana__parrafo">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem quis, veniam eius nesciunt ex enim delectus, nobis
+              perferendis ut minima optio id earum consectetur repellat ea natus
+              qui, aliquid totam?
+            </p>
+            <div class="iconos-contenedor">
+              <a class="icono-url1" href="#" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a class="icono-url2" href="#" target="_blank"
+                ><i class="fa-solid fa-laptop"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulario -->
+    <div class="container-form">
+      <div class="form">
+        <h2 id="container_form_h2" class="subtitle">Comunicate conmigo</h2>
+        <p id="container_form_p">
+          Puedes escribir una pregunta, una propuesta o simplemente saludar 😉
+        </p>
+        <div class="form-inputs">
+          <form action="https://formspree.io/f/mjvnaqya" method="post">
+            <div class="form_group1">
+              <div class="form_group-name">
+                <label id="form_name" for="name">Nombre:</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  autocomplete="name"
+                />
+              </div>
+              <div class="form_group-email">
+                <label id="form_mail" for="email">Correo Electrónico:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  autocomplete="email"
+                />
+              </div>
+            </div>
+            <div class="form_group2">
+              <label id="form_message" for="message">Mensaje:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+                autocomplete="off"
+              ></textarea>
+            </div>
+            <button id="form_button" type="submit">Enviar Mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <h3 id="footer_h3">CarlosPazSoy</h3>
+        <p id="footer_p" >Desarrollador fullstack y de contenido multimedia</p>
+        <ul class="socials">
+          <li>
+            <a href="https://www.instagram.com/carlospazsoy" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/carlospazsoyfb/"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@carlospazsoy"
+              ><i class="fab fa-tiktok"></i
+            ></a>
+          </li>
+          <!-- <li>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </li> -->
+          <li>
+            <a href="https://www.linkedin.com/in/carlospazsoy/"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+        <p id="footer_copy">&copy; CarlosPazSoy 2024. Todos los derechos reservados.</p>
+        <div class="footer-columns">
+          <div>
+            <ul>
+              <li><a href="#">Legal Docs</a></li>
+              <li><a href="./Policies/index.html">Política de Cookies</a></li>
+              <li><a href="#">Legal Docs</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><a href="#">My account</a></li>
+              <li><a href="#">My account</a></li>
+              <li><a href="#">My account</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Help</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="cookie-banner" id="cookie-banner">
+      <p id="cookie_p">
+        Utilizamos cookies para mejorar su experiencia. Al utilizar nuestro
+        sitio, usted acepta nuestro uso de cookies.
+        <a href="./Policies/index.html">Leer más</a>.
+        <button type="button" id="button-cookies">Aceptar</button>
+      </p>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
