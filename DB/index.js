@@ -49,7 +49,7 @@ const datos = [
     id: 6,
     title: "Proyecto 6",
     texto:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ducimus maiores molliti  reiciendis nulla minima eos perferendis, ab ipsa nostrum!",
+      "Proyecto de presentación de los proyectos creados en el bootcamp",
     fecha: " de Enero del 2023",
     url1:"https://github.com/Carlospazsoy/proyecto-6-portafolio",
     url2:"https://carlospazsoy.github.io/proyecto-6-portafolio/",
