@@ -24,8 +24,8 @@ const datos = [
     texto:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ducimus maiores molliti  reiciendis nulla minima eos perferendis, ab ipsa nostrum!",
     fecha: "3 de Enero del 2023",
-    url1:"https://github.com/Carlospazsoy/P2_CRUD",
-    url2: "https://carlospazsoy.github.io/P2_CRUD/",
+    url1:"https://github.com/Carlospazsoy/Proyecto-3",
+    url2: "https://carlospazsoy.github.io/Proyecto-3/",
   },
   {
     id: 4,
@@ -40,9 +40,9 @@ const datos = [
     id: 5,
     title: "Proyecto 5",
     texto:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ducimus maiores molliti  reiciendis nulla minima eos perferendis, ab ipsa nostrum!",
+      "Este proyecto es mi  primer desarrollo fullstack donde el frontend esta en este repositorio (https://github.com/Carlospazsoy/P5_Frontend) desplegado en github-pages( https://carlospazsoy.github.io/P5_Frontend/ ), que por el momento no funciona en produccion pero funciona en desarrollo, el backend funciona perfectamente desplegado en render, adjunto enlaces en los iconos y para testeo comparto consultas de postman: ",
     fecha: "5 de Enero del 2023",
-    url1:"https://github.com/Carlospazsoy/P4_Restaurante",
+    url1:"https://github.com/Carlospazsoy/P5_Backend",
     url2:"https://carlospazsoy.github.io/P4_Restaurante/",
   },
   {
@@ -51,8 +51,8 @@ const datos = [
     texto:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ducimus maiores molliti  reiciendis nulla minima eos perferendis, ab ipsa nostrum!",
     fecha: " de Enero del 2023",
-    url1:"https://github.com/Carlospazsoy/P4_Restaurante",
-    url2:"https://carlospazsoy.github.io/P4_Restaurante/",
+    url1:"https://github.com/Carlospazsoy/proyecto-6-portafolio",
+    url2:"https://carlospazsoy.github.io/proyecto-6-portafolio/",
   },
 ];
 
