@@ -43,7 +43,7 @@ const datos = [
       "Este proyecto es mi  primer desarrollo fullstack donde el frontend esta en este repositorio (https://github.com/Carlospazsoy/P5_Frontend) desplegado en github-pages( https://carlospazsoy.github.io/P5_Frontend/ ), que por el momento no funciona en produccion pero funciona en desarrollo, el backend funciona perfectamente desplegado en render, adjunto enlaces en los iconos y para testeo comparto consultas de postman: ",
     fecha: "5 de Enero del 2023",
     url1:"https://github.com/Carlospazsoy/P5_Backend",
-    url2:"https://carlospazsoy.github.io/P4_Restaurante/",
+    url2:"https://monumental-melba-e16e58.netlify.app/",
   },
   {
     id: 6,
